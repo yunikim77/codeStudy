@@ -1,13 +1,24 @@
 import numpy as np
 import matplotlib.pyplot as plt
+from PyQt5.QtWidgets import *
+import sys
 
 index1 = []
 index2 = []
 data1 = []
 data2 = []
+lineCnt = 0
 
-with open('data_001.txt') as file:
+app = QApplication(sys.argv)
+fname = QFileDialog.getOpenFileName(filter="*.txt")
+
+if fname[0] == '':
+    print("didn't select file.")
+    exit()
+
+with open(fname[0]) as file:
     for line in file:
+        lineCnt += 1
         ld = line.split()
         index1.append(int(ld[0]))
         index2.append(int(ld[1]))
