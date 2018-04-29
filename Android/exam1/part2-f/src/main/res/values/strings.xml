@@ -13,4 +13,7 @@
     <string name="hintTitle">Main Title</string>
     <string name="hintSubTitle">Sub Title</string>
     <string name="hintContent">input your text</string>
+    <string name="alertMsg">작성중인 내용을 저장하지 않고 나가시겠습니까?</string>
+    <string name="alertOK">OK</string>
+    <string name="alertNO">Cancel</string>
 </resources>

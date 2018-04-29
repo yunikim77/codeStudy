@@ -12,4 +12,5 @@
     <string name="hintTitle">제목</string>
     <string name="hintSubTitle">소제목</string>
     <string name="hintContent">내용을 입력하세요</string>
+    <string name="alertMsg">작성중인 내용을 저장하지 않고 나가시겠습니까?</string>
 </resources>
